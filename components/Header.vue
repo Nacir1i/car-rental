@@ -22,7 +22,7 @@ const links = [
 <template>
   <UHeader :links="links">
     <template #logo>
-      <img src="~/public/favicon.ico" class="w-auto h-6" />
+      <img src="/favicon.ico" class="w-auto h-6" />
     </template>
 
     <template #right>

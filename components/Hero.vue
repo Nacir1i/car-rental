@@ -3,7 +3,7 @@
     <NuxtImg
       width="1400"
       height="800"
-      class="object-cover w-full h-[420px] lg:h-[560px] xl:h-[640px] skeleton rounded-b-lg"
+      class="object-cover w-full h-[420px] lg:h-[560px] xl:h-[640px] skeleton"
       src="/images/bg.jpg"
       alt="Hero image"
       loading="eager"
@@ -14,7 +14,7 @@
       preload
     />
     <div
-      class="container absolute inset-0 flex flex-col items-start justify-center bg-gradient-to-l from-gray-200 md:bg-none p-8"
+      class="container absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col justify-center items-center p-8"
     >
       <h1 class="text-3xl font-bold md:mb-4 md:text-4xl lg:text-6xl">
         Just landed.
@@ -29,5 +29,8 @@
         </p>
       </div>
     </div>
+    <div
+      class="bg-white h-16 w-16 absolute -bottom-8 left-0 right-0 m-auto rotate-45 sm:block hidden"
+    ></div>
   </div>
 </template>
