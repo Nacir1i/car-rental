@@ -113,7 +113,6 @@ const data = ref<Car[]>([
       <UButton
         icon="i-heroicons-arrow-right-circle"
         class="rounded-none bg-red-700 text-white px-6 py-4 mt-10"
-        to="https://volta.net"
         target="_blank"
         color="red"
         >View More Offers</UButton
