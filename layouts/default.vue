@@ -1,5 +1,7 @@
 <template>
-  <h1>Layout header</h1>
-  <slot />
-  <h1>Layout footer</h1>
+  <div class="w-screen bg-white">
+    <Header />
+    <slot />
+    <Footer />
+  </div>
 </template>
