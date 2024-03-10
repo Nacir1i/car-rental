@@ -1,6 +1,6 @@
 <template>
   <div class="w-screen bg-white">
-    <Header />
+    <Navbar />
     <slot />
     <Footer />
   </div>
