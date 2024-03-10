@@ -50,9 +50,7 @@ const data = ref<Car[]>([
     class="w-full flex flex-col justify-start items-center space-y-28 py-16 md:py-28"
   >
     <div class="md:w-[65%] w-full">
-      <div
-        class="w-full flex flex-wrap justify-center items-center gap-14 relative z-50"
-      >
+      <div class="w-full flex flex-wrap justify-center items-center gap-14">
         <Brands v-for="brand in brands" :brand="brand.brand" />
       </div>
     </div>
@@ -113,7 +111,6 @@ const data = ref<Car[]>([
       <UButton
         icon="i-heroicons-arrow-right-circle"
         class="rounded-none bg-red-700 text-white px-6 py-4 mt-10"
-        to="https://volta.net"
         target="_blank"
         color="red"
         >View More Offers</UButton

@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen bg-white">
-    <Header />
+    <Navbar />
     <slot />
-    <h1>Layout footer</h1>
+    <Footer />
   </div>
 </template>
